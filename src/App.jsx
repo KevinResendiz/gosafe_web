@@ -33,7 +33,7 @@ function App() {
 // Layout que incluye la barra lateral
 function LayoutWithSidebar() {
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", backgroundColor:"#e1e9f0"}}>
       <Sidebar />
       <div style={{ flex: 1, padding: "20px" }}>
         <Routes>
